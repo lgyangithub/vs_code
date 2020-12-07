@@ -108,7 +108,7 @@ int main()
 	char k[20];
 	stu people[MAX];
 	stu h[MAX];
-	memset(h, 0, sizeof(h));
+	memset(h, 0, sizeof(h));//初始化数组h
 	int n=initialize(people);
 	Hashkey(people,n);
 	HashSave(people, n, h);
